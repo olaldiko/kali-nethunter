@@ -51,7 +51,7 @@ case $choice in
 		clonecmd="$clonecmd --depth 1" ;;
 esac
 
-clonecmd="$clonecmd https://github.com/offensive-security/nethunter-devices.git devices"
+clonecmd="$clonecmd https://github.com/olaldiko/nethunter-devices.git devices"
 echo "Running command: $clonecmd"
 
 $clonecmd || ABORT "Failed to git clone devices!"
